@@ -70,5 +70,7 @@ public class ServerHandler {
 		return "HTTP/1.1 200 OK\r\n" + "Server: My_Server\r\n" + "Content-Type: text/html\r\n" + "Content-Length: "
 				+ "\r\n" + "Connection: close\r\n\r\n";
 	}
+	
+	
 
 }

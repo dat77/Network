@@ -7,7 +7,7 @@ https://github-cloud.s3.amazonaws.com
 https://user-images.githubusercontent.com/
 https://github.githubassets.com/assets/frameworks-41c2037bf12f1e46d8f08b88a04a8d8f.css
 https://github.githubassets.com/assets/site-294181adec18ed639e160b96b45d17ac.css
-https://github.githubassets.com/assets/github-b654f6ae18468ac7a5e7dbb98f3dcc4b.css
+https://github.githubassets.com/assets/github-7a672beaaa391cb7f7cd9d067f793974.css
 /opensearch.xml
 https://github.com/fluidicon.png
 https://github.githubassets.com/
