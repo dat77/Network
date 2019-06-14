@@ -23,6 +23,7 @@ public class Main {
 		 */
 		hosts = UrlHandler.scrapeLinksFromHtml("https://github.com");
 		Arrays.stream(hosts).forEach(System.out::println);
+		FileHandler.writeToFileLineByLine(new File("links.txt"), hosts);
 
 		/**
 		 * 2. Написать сервер, который будет отправлять пользователю информацию о
