@@ -30,7 +30,7 @@ public class Main {
 		 * системе и номер запроса.
 		 */
 		
-		ServerHandler.localListener();
+		//ServerHandler.localListener();
 
 	}
 
