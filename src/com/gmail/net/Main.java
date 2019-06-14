@@ -11,26 +11,26 @@ public class Main {
 		/**
 		 * 1. Проверить доступность сайтов указанных в отдельном файле.
 		 */
-		String[] hosts = FileHandler.readFromFileLineByLine(new File("hosts.txt"));
-		for (String host : hosts) {
-			System.out.println(UrlHandler.hostAvailable(host));
-		}
+//		String[] hosts = FileHandler.readFromFileLineByLine(new File("hosts.txt"));
+//		for (String host : hosts) {
+//			System.out.println(UrlHandler.hostAvailable(host));
+//		}
 
 		/**
 		 * 3. Напишите программу, которая выведет в файл все ссылки, которые содержатся
 		 * в html документе, который будет прислан в результате запроса на произвольный
 		 * URL.
 		 */
-		hosts = UrlHandler.scrapeLinksFromHtml("https://github.com");
-		Arrays.stream(hosts).forEach(System.out::println);
-		FileHandler.writeToFileLineByLine(new File("links.txt"), hosts);
+//		hosts = UrlHandler.scrapeLinksFromHtml("https://github.com");
+//		Arrays.stream(hosts).forEach(System.out::println);
+//		FileHandler.writeToFileLineByLine(new File("links.txt"), hosts);
 
 		/**
 		 * 2. Написать сервер, который будет отправлять пользователю информацию о
 		 * системе и номер запроса.
 		 */
 		
-		//ServerHandler.localListener();
+		ServerHandler.localListener();
 
 	}
 
